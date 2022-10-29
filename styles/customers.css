@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.customers-container {
+   width: 1170px;
+   height: 630px;
+   font-family: Raleway, serif;
+   position: relative;
+}
+.customers-container .separator {
+   width: 170px;
+   border: 0.5px solid #ec7979;
+   margin-bottom: 40px;
+   margin-top: 40px;
+   margin: 0 auto;
+   margin-bottom: 40px;
+   margin-top: 40px;
+}
+.customers-container h2 {
+   font-family: Raleway, sans-serif;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   margin-top: 50px;
+}
+
+/* все серое потому что к этому контейнеру применен серый цвет, лохушка */
+.customers-container__text h5 {
+   color: #86878b;
+   font-family: Raleway;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21px;
+   height: 21px;
+   text-align: center;
+   margin-bottom: 83px;
+}
+/* не работает выравнивание */
+/* .customers-container__review {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+} */
+.customers-container__text .subtitle h5 {
+   font-family: Raleway;
+   font-size: 18px;
+   line-height: 18px;
+   height: 18px;
+   color: black;
+}
+
+.customers-container__review h5 {
+   font-family: Raleway;
+   font-size: 18px;
+   color: #86878b;
+   line-height: 21px;
+   height: 21px;
+   width: 370px;
+   font-weight: 400px;
+}
+.customers-container__review h4 {
+   font-family: Open Sans;
+   font-weight: 700px;
+   font-size: 24px;
+   line-height: 33;
+   height: 33px;
+}
+
+.customers-container__review-first {
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+.customers-container__review-second {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.customers-container__review-first .left {
+   position: absolute;
+   margin-top: 39px;
+   margin-bottom: 37px;
+   text-align: center;
+   margin-left: 170px;
+   margin-right: 30px;
+}
+.customers-container__review-first .centered {
+   position: absolute;
+   margin-left: 570px;
+   margin-right: 570px;
+   text-align: center;
+}
+.customers-container__review-first .right {
+   position: absolute;
+   margin-left: 970px;
+   margin-right: 170px;
+}
+.customers-container__review-first img {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
