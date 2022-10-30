@@ -1,14 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap");
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap");
+
 .customers-container {
-   width: 1170px;
+   width: 1171px;
    height: 630px;
-   font-family: Raleway, serif;
-   position: relative;
+   margin-right: 170px;
+   margin-left: 170px;
+}
+.customers-container__reviews {
+   display: flex;
+   justify-content: space-around;
+}
+.customers-container__comment .tiny {
+   margin-left: 60px;
+   margin-top: -5px;
+}
+.customers-container h2 {
+   font-family: Raleway, sans-serif;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   height: 42px;
+   text-align: center;
+   margin-top: 50px;
 }
 .customers-container .separator {
    width: 170px;
@@ -19,87 +32,54 @@
    margin-bottom: 40px;
    margin-top: 40px;
 }
-.customers-container h2 {
-   font-family: Raleway, sans-serif;
-   font-size: 36px;
-   line-height: 42px;
-   text-align: center;
-   margin-top: 50px;
-}
-
-/* все серое потому что к этому контейнеру применен серый цвет, лохушка */
-.customers-container__text h5 {
+.customers-container .subtitle {
    color: #86878b;
    font-family: Raleway;
    font-size: 18px;
    font-weight: 400;
    line-height: 21px;
    height: 21px;
-   text-align: center;
    margin-bottom: 83px;
+   text-align: center;
 }
-/* не работает выравнивание */
-/* .customers-container__review {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-} */
-.customers-container__text .subtitle h5 {
-   font-family: Raleway;
-   font-size: 18px;
-   line-height: 18px;
-   height: 18px;
-   color: black;
-}
-
-.customers-container__review h5 {
-   font-family: Raleway;
-   font-size: 18px;
+.customers-container__comment h5 {
    color: #86878b;
+   font-family: Raleway, sans-serif;
+   font-weight: 400;
+   font-size: 18px;
    line-height: 21px;
    height: 21px;
-   width: 370px;
-   font-weight: 400px;
-}
-.customers-container__review h4 {
-   font-family: Open Sans;
-   font-weight: 700px;
-   font-size: 24px;
-   line-height: 33;
-   height: 33px;
-}
-
-.customers-container__review-first {
+   text-align: center;
    display: flex;
-   align-items: center;
+   /* почему не работает текст элайн? */
+}
+.customers-container__comment .prof {
+   font-family: Raleway, sans-serif;
+   font-size: 18px;
+   line-height: 21px;
+   height: 21px;
+   color: black;
+   text-align: left;
+}
+.customers-container__comment h4 {
+   font-family: "Open Sans", sans-serif;
+   font-size: 24px;
+   line-height: 33px;
+   height: 33px;
+   text-align: left;
+}
+.customers-container__comment {
    position: relative;
 }
-.customers-container__review-second {
-   display: flex;
+.customers-container__comment .words {
+   position: absolute;
+   top: 10px;
+   flex-direction: row;
    align-items: center;
-   justify-content: space-around;
+   align-content: center;
 }
-.customers-container__review-first .left {
-   position: absolute;
-   margin-top: 39px;
-   margin-bottom: 37px;
-   text-align: center;
-   margin-left: 170px;
-   margin-right: 30px;
-}
-.customers-container__review-first .centered {
-   position: absolute;
-   margin-left: 570px;
-   margin-right: 570px;
-   text-align: center;
-}
-.customers-container__review-first .right {
-   position: absolute;
-   margin-left: 970px;
-   margin-right: 170px;
-}
-.customers-container__review-first img {
+.customers-container__comment .client {
+   margin-top: 66px;
    display: flex;
-   align-items: center;
-   justify-content: space-between;
+   flex-direction: row;
 }
