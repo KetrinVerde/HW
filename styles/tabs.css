@@ -8,12 +8,15 @@
 .tabs-container {
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tabs-subcontainer {
     font-family: "Open sans", sans-serif;
     width: 1170px;
-    margin: calc(100vh / 2 - 542.1px / 2) auto;
+    /* margin: calc(100vh / 2 - 542.1px / 2) auto; */
     /* border: 1px solid red; */
 }
 
@@ -22,6 +25,7 @@
     width: 1170px;
     border-top: none;
     height: 500px;
+    box-sizing: content-box;
 }
 
 .tabs-container .left-side h3 {
