@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
-/* * {
-   margin: 0;
-   padding: 0;
-} */
 .design-container {
-   /* width: 1510px;
-   height: 442px; */
    display: flex;
    justify-content: center;
    align-items: center;
-   background-image: url(../pics/design.png);
+   background-image: url(../pics/bgdes.png), url(../pics/design.png);
    background-color: rgba(0, 0, 0, 5);
    font-family: "Raleway", sans-serif;
 }
