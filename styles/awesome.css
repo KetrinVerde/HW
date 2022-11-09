@@ -2,6 +2,8 @@
 * {
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
+   outline: none;
 }
 .awesome-container {
    margin: 0 auto;
@@ -14,6 +16,7 @@
 }
 .awesome-subcontainer {
    width: 1170px;
+   margin-bottom: 58px;
 }
 .awesome-container h2 {
    font-weight: 400;
@@ -23,7 +26,7 @@
    text-align: center;
    text-transform: uppercase;
 }
-.awesome-container .separator {
+.awesome-subcontainer__separator {
    margin: 0 auto;
    width: 170px;
    border: 0.5px solid #ec7979;

@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&display=swap");
-
 .tabs-container {
     height: 100vh;
     width: 100%;
@@ -16,19 +9,17 @@
 .tabs-subcontainer {
     font-family: "Open sans", sans-serif;
     width: 1170px;
-    /* margin: calc(100vh / 2 - 542.1px / 2) auto; */
-    /* border: 1px solid red; */
 }
 
 .tabs-subcontainer .open-tab {
     border: 1px solid #c6cbcd;
-    width: 1170px;
     border-top: none;
     height: 500px;
+    width: 1170px;
     box-sizing: content-box;
 }
 
-.tabs-container .left-side h3 {
+.tabs-container .open-tab__left-side h3 {
     font-size: 30px;
     height: 124px;
     line-height: 124px;
@@ -36,7 +27,7 @@
     margin-bottom: 27px;
 }
 
-.tabs-container .left-side h5 {
+.tabs-container .open-tab__left-side h5 {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -44,14 +35,14 @@
     margin-bottom: 27px;
 }
 
-.tabs-container .left-side {
+.tabs-container .open-tab__left-side {
     width: 570px;
     display: inline-block;
     margin: 0 25px 0 100px;
     vertical-align: top;
 }
 
-.open-tab .left-side button {
+.open-tab .open-tab__left-side button {
     width: 270px;
     height: 58px;
     background: #ec7979;

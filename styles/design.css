@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
 .design-container {
    display: flex;
    justify-content: center;
    align-items: center;
    background-image: url(../pics/bgdes.png), url(../pics/design.png);
-   background-color: rgba(0, 0, 0, 5);
    font-family: "Raleway", sans-serif;
 }
 .design-subcontainer {
    width: 1170px;
    height: 442px;
+   margin-top: 50px;
+   /* doesn't work */
 }
 .design-subcontainer h2 {
    font-size: 36px;
@@ -19,18 +19,13 @@
    height: 42.26px;
    line-height: 42.26px;
    text-align: center;
-   margin-top: 50px;
-   /* position: relative;
-   z-index: 2; */
 }
-.design-subcontainer .separator {
+.design-subcontainer__separator {
    width: 170px;
    margin: 0 auto;
    border: 0.5px solid #fff;
    margin-bottom: 40px;
    margin-top: 50px;
-   /* position: relative;
-   z-index: 2; */
 }
 .design-subcontainer h5 {
    color: #fff;
@@ -39,8 +34,6 @@
    text-align: center;
    margin-bottom: 73px;
    text-align: center;
-   /* position: relative;
-   z-index: 2; */
 }
 .design-subcontainer button {
    width: 370px;
@@ -53,15 +46,4 @@
    color: #fff;
    display: block;
    margin: 0 auto;
-   /* position: relative;
-   z-index: 2; */
 }
-/* .design-subcontainer .overlay {
-   width: 1170px;
-   height: 442px;
-   background: rgba(0, 0, 0, 0.5);
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: 0;
-} */

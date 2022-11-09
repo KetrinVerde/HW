@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&display=swap");
 .banner-container {
    width: 100%;
-   height: 100vh;
+   /* height: 100vh; */
    background-image: url(../pics/bg.png), url(../pics/banner.png);
    font-family: "Open Sans", sans-serif;
 }
@@ -48,7 +47,7 @@
    font-weight: 600;
    margin-bottom: 185px;
 }
-.bunner-subcontainer__inputs {
+.banner-subcontainer__inputs {
    width: 470px;
    height: 390px;
    border: 1px solid white;
@@ -59,7 +58,7 @@
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
 }
-.bunner-subcontainer__inputs input {
+.banner-subcontainer__inputs input {
    border: none;
    border-bottom: 1px solid #bdbdbd;
    width: 370px;
@@ -69,20 +68,20 @@
    font-size: 14px;
    color: #bdbdbd;
 }
-/* .banner-subcontainer__inputs input:not(:last-child) {
-   margin-bottom: 75px;
-} */
-.bunner-subcontainer__inputs h4 {
+
+.banner-subcontainer__inputs h4 {
    font-size: 24px;
    font-weight: 700;
    text-align: center;
    text-transform: uppercase;
    color: #333;
+   margin-bottom: 45px;
+   margin-top: 20px;
 }
-.bunner-subcontainer__inputs span {
+.banner-subcontainer__inputs span {
    color: #ec7979;
 }
-.btn {
+.banner-subcontainer__right button {
    width: 472px;
    height: 60px;
    color: #fff;

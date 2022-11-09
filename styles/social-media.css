@@ -1,10 +1,4 @@
-* {
-   margin: 0;
-   padding: 0;
-}
-
 .social-media-container {
-   /* margin-top: 185px; */
    height: 140px;
    background: #f8efef;
    display: flex;
@@ -14,7 +8,6 @@
 
 .social-media-subcontainer {
    width: 1170px;
-   /* border: 1px solid red; */
    display: flex;
    align-items: center;
 }
@@ -41,7 +34,7 @@
    line-height: 21.13px;
 }
 
-.social-media-container__icons {
+.social-media-subcontainer__icons {
    width: calc(35px * 6 + 70px * 7);
    display: flex;
    justify-content: space-between;
